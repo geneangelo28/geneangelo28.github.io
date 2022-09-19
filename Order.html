@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Danny's Food</title>
+    <style>
+        td:hover{
+            background-color: rgb(252, 175, 8);
+        }
+        a:hover{
+          background-color: orange;
+        }
+        
+    </style>
+  </head>
+  <body style="background-color:rgb(243, 238, 215) ;">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand"
+          ><img
+            class="responsive"
+            style="width: 40px"
+            src="https://cdn-icons-png.flaticon.com/512/161/161588.png"
+            alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-supported-content"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-supported-content">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Order.html">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="accountreg.html">Register</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control" type="search" placeholder="Search" />
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-lg-12 table-responsive">
+          <table class="table table-bordered ">
+            <thead style="background-color: rgb(255, 81, 0);text-align: center
+            ;">
+              <tr>
+                <th>Icons</th>
+                <th>Item Name</th>
+                <th>Price</th>
+              </tr>
+              <tr>
+                <th
+                  colspan="3"
+                  style="
+                    background-color: rgb(221, 0, 250);
+                    text-align: center;
+                  "
+                >
+                  Meals
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img class="responsive" src="https://cdn.vox-cdn.com/thumbor/X-ydSmRY9Ylx-rvAwZj7s4anvWE=/0x0:960x640/1200x800/filters:focal(404x244:556x396)/cdn.vox-cdn.com/uploads/chorus_image/image/51553075/13419042_1359144147435857_8887026700437396746_n.0.jpg" style="max-width: 50px; max-height:50px;"/></td>
+                <td>Burger</td>
+                <td>55 PHP</td>
+              </tr>
+              <tr>
+                <td><img class="responsive" src="https://th.bing.com/th/id/OIP.UOUQec-7CrQaUd5NWtvV4QHaF7?pid=ImgDet&rs=1" style="max-width: 50px; max-height:50px;"/></td>
+                <td>Fried Chicken</td>
+                <td>80 PHP</td>
+              </tr>
+              <tr>
+                <td><img class="responsive" src="https://club.cooking/wp-content/uploads/2019/04/Filipino-Spaghetti-03-kvadrat.jpg" style="max-width: 50px; max-height:50px;"/></td>
+                <td>Spaghetti</td>
+                <td>55 PHP</td>
+              </tr>
+              <tr>
+                <td><img class="responsive" src="https://www.thefoodcrunch.com/wp-content/uploads/2019/09/Pepperoni_Pizza.jpg" style="max-width: 50px; max-height:50px;"/></td>
+                <td>Pizza</td>
+                <td>55 PHP</td>
+              </tr>
+              <tr>
+                <th
+                  colspan="3"
+                  style="
+                    text-align: center;
+                    background-color: rgb(104, 104, 253);
+                  "
+                >
+                  Drinks
+                </th>
+              </tr>
+              <tr>
+                <td><img class="responsive" src="https://delivery.pret.co.uk/on/demandware.static/-/Sites-pret-uk-master-catalog/default/dw97ca232d/products/Coke.jpg" style="max-width: 50px; max-height:50px;"/></td>
+                <td>Coke</td>
+                <td>20 PHP</td>
+              </tr>
+              <tr>
+                <td><img class="responsive" src="https://www.coles.com.au/content/dam/coles/brands-we-love/sprite/sprite-hero-x1-image-546x440px.png" style="max-width: 50px; max-height:50px;"/></td>
+                <td>Sprite</td>
+                <td>20 PHP</td>
+              </tr>
+              <tr>
+                <td><img class="responsive" src="https://th.bing.com/th/id/OIP.jAbT0N1-X9Z03SFjv8JUBwHaHa?pid=ImgDet&rs=1" style="max-width: 50px; max-height:50px;"/></td>
+                <td>Sarsi</td>
+                <td>20 PHP</td>
+              </tr>
+              <tr>
+                <td colspan="2" rowspan="3" style="text-align:center">
+                 All items are subject to tax.<br> No refunds.<br> All items are not trasferable
+                </td>
+                <tr>
+                    <td>Extra Rice 20 PHP</td>
+                </tr>
+                <tr>
+
+                    <td>Condiments 20 PHP</td>
+                </tr>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Account Registration</title>
+    <style>
+      a:hover {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body class="bg-black">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand"
+          ><img
+            class="responsive"
+            style="width: 40px"
+            src="https://cdn-icons-png.flaticon.com/512/161/161588.png"
+            alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-supported-content"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-supported-content">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Order.html">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="accountreg.html">Register</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control" type="search" placeholder="Search" />
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <div class="container pt-5 pb-5 bg-black">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            class="responsive"
+            src="https://scontent.fmnl18-1.fna.fbcdn.net/v/t39.30808-6/301164954_501734071953927_3826425146022302194_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGLm2VIsT8U9uYZC8q80e1oH8xdT3OJ2CgfzF1Pc4nYKEnO6B68zzOaPnB4N442XIhXlsRy8NhUuji-WYgL9_sv&_nc_ohc=ZADIg7ZxkqgAX8gTvXY&_nc_ht=scontent.fmnl18-1.fna&oh=00_AT_E6d44TFsFeXwQnR7S2wQbg5QRom4H85Mwrj78795MQw&oe=6325AD34"
+            alt="burger"
+            style="width: 100%"
+          />
+        </div>
+        <div class="col-lg-6">
+          <div class="form-group text-info">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              placeholder="juan01"
+            />
+            <label for="firstname">First name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="firstname"
+              placeholder="Juan"
+            />
+            <label for="lastname">Last name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lastname"
+              placeholder="dela Cruz"
+            />
+            <label for="password">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="*****"
+            />
+            <label for="conpass">Confirm Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="conpass"
+              placeholder="*****"
+            />
+            <form class="form-inline">
+              <label for="gender">Gender</label><br />
+              <input
+                class="form-control"
+                type="radio"
+                id="Male"
+                name="gender"
+                value="male"
+              />
+              <label for="male">Male</label>
+              <input
+                class="form-control"
+                type="radio"
+                id="Female"
+                name="gender"
+                value="Female"
+              />
+              <label for="female">Female</label>
+              <input
+                class="form-control"
+                type="radio"
+                id="Other"
+                name="gender"
+                value="Other"
+              />
+              <label for="other">Other</label><br />
+            </form>
+            <label for="howmaytime">
+              How many times have you visited our restaurant? </label
+            ><br />
+            <select name="howmany" id="howmany">
+              <option value="1-2">none at all</option>
+              <option value="1-2">1-2 times</option>
+              <option value="1-2">3-5 times</option>
+              <option value="1-2">more than 5 timess</option></select
+            ><br />
+            <label for="address">Address</label>
+            <input
+              class="form-control"
+              type="text"
+              class="form-control"
+              id="address"
+              placeholder="Brgy. Pulang Lupa Uno, Las Pinas City"
+            /><br />
+            <form class="form-inline">
+              <label for="upload">Upload photo</label>
+              <input
+                class="form-control"
+                type="file"
+                name="upload photo"
+                accept="image/jpg"
+              />
+            </form>
+            <br />
+
+            <button type="buttom" class="btn btn-warning">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
