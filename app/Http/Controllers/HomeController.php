@@ -20,7 +20,7 @@ class HomeController extends Controller
             return view('homepage', compact('orders', 'totals'));
        }
        else{
-            return view('homepage');
+            return view('welcome');
        }
     }
     
